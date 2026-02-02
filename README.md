@@ -117,6 +117,8 @@ fetch("https://ai-club-website.onrender.com/login", {
   body: JSON.stringify({ email, password })
 });
 
+---
+
 ▶️ How to Run the Project Locally
 1️⃣ Clone the Repository
 git clone https://github.com/Pathik0701/ai-club-website.git
@@ -147,6 +149,8 @@ https://ai-club-website.onrender.com
 
 Frontend:
 Hosted via GitHub Pages / Live Server
+
+---
 
 🎯 Learning Outcomes
 
