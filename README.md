@@ -50,32 +50,32 @@ The project is built with **HTML, CSS, JavaScript (Frontend)** and **Node.js + E
 
 ai-club-website/
 │
-├── index.html # Main landing page
-├── login.html # Login page
-├── register.html # Registration page
+├── index.html           # Main landing page
+├── login.html           # Login page
+├── register.html        # Registration page
 │
-├── css/
-│ └── style.css # All styling and responsiveness
+├── css/                 # Stylesheets
+│   └── style.css        # Main CSS file (responsive + design)
 │
-├── js/
-│ ├── login.js # Login logic
-│ ├── register.js # Registration logic
-│ ├── events.js # Fetch and display events
-│ ├── logout.js # Logout handling
-│ └── api.js # Backend communication helpers
+├── js/                  # JavaScript files
+│   ├── login.js         # Login logic
+│   ├── register.js      # Registration logic
+│   ├── events.js        # Display events dynamically
+│   ├── logout.js        # Logout handling
+│   └── api.js           # API helper for backend communication
 │
-├── assets/
-│ ├── ai-bg.gif # Animated AI background
-│ └── club-photo.png # Club image
+├── assets/              # Images and GIFs
+│   ├── ai-bg.gif        # Animated AI background for hero section
+│   └── club-photo.png   # Club photo / Hero image
 │
-├── backend/
-│ ├── server.js # Express backend server
-│ ├── package.json
-│ └── package-lock.json
+├── backend/             # Node.js + Express backend
+│   ├── server.js        # Main backend server file
+│   ├── package.json     # Backend dependencies
+│   └── package-lock.json
 │
-├── package.json
+├── package.json         # Root project dependencies
 ├── package-lock.json
-└── README.md
+└── README.md            # Project documentation (this file)
 
 
 ---
