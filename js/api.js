@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://ai-club-website.onrender.com";
 
 async function apiRequest(endpoint, method = "GET", data = null, token = null) {
   const options = {
