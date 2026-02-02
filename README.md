@@ -49,33 +49,32 @@ The project is built with **HTML, CSS, JavaScript (Frontend)** and **Node.js + E
 ## 📁 Project Structure
 
 ai-club-website/
+├── index.html           📄 Main landing page
+├── login.html           📄 Login page
+├── register.html        📄 Registration page
 │
-├── index.html           # Main landing page
-├── login.html           # Login page
-├── register.html        # Registration page
+├── css/                 📁 Stylesheets
+│   └── style.css        📄 Main CSS (responsive & design)
 │
-├── css/                 # Stylesheets
-│   └── style.css        # Main CSS file (responsive + design)
+├── js/                  📁 JavaScript files
+│   ├── login.js         📄 Handles login functionality
+│   ├── register.js      📄 Handles user registration
+│   ├── events.js        📄 Dynamically displays events
+│   ├── logout.js        📄 Logout functionality
+│   └── api.js           📄 Backend API helper
 │
-├── js/                  # JavaScript files
-│   ├── login.js         # Login logic
-│   ├── register.js      # Registration logic
-│   ├── events.js        # Display events dynamically
-│   ├── logout.js        # Logout handling
-│   └── api.js           # API helper for backend communication
+├── assets/              📁 Images & GIFs
+│   ├── ai-bg.gif        📄 Animated AI background
+│   └── club-photo.png   📄 Club hero image
 │
-├── assets/              # Images and GIFs
-│   ├── ai-bg.gif        # Animated AI background for hero section
-│   └── club-photo.png   # Club photo / Hero image
-│
-├── backend/             # Node.js + Express backend
-│   ├── server.js        # Main backend server file
-│   ├── package.json     # Backend dependencies
+├── backend/             📁 Node.js + Express backend
+│   ├── server.js        📄 Main backend server
+│   ├── package.json     📄 Backend dependencies
 │   └── package-lock.json
 │
-├── package.json         # Root project dependencies
+├── package.json         📄 Root dependencies
 ├── package-lock.json
-└── README.md            # Project documentation (this file)
+└── README.md            📄 Project documentation
 
 
 ---
