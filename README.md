@@ -109,15 +109,6 @@ ai-club-website/
 
 The frontend communicates with the backend using **Fetch API**.
 
-Example (Login Request):
-```js
-fetch("https://ai-club-website.onrender.com/login", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ email, password })
-});
-
----
 
 ▶️ How to Run the Project Locally
 1️⃣ Clone the Repository
